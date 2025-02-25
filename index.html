@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hudson Latimer | Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#home">HL</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Hudson Latimer">Hudson Latimer</h1>
+                <div class="hero-subtitle">
+                    <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+                </div>
+                <p class="hero-description">
+                    Developer focused on creating innovative tools and efficient solutions for everyday challenges.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">View Projects</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/HuddyLatimer" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:hudsonlatimer4@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="orbit-container">
+                    <div class="circle-orbit-container">
+                        <div class="inner-orbit">
+                            <i class="tech-icon fab fa-python"></i>
+                            <i class="tech-icon fab fa-js"></i>
+                            <i class="tech-icon fab fa-java"></i>
+                            <i class="tech-icon fab fa-html5"></i>
+                            <i class="tech-icon fab fa-css3-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mouse-scroll">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div>
+                <span class="scroll-arrows">
+                    <span class="down-arrow-1"></span>
+                    <span class="down-arrow-2"></span>
+                    <span class="down-arrow-3"></span>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-container">
+            <div class="section-header">
+                <h2>About <span>Me</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a Computer Programming student at Nova Scotia Community College, set to graduate in Spring 2026 with a focus on creating innovative software solutions that solve real-world problems.
+                    </p>
+                    <p>
+                        With experience in IT support, web development, and social media management at Rent Roam, I've developed a diverse skill set spanning multiple programming languages and technologies.
+                    </p>
+                    <p>
+                        I'm passionate about cybersecurity, system optimization, and creating tools that enhance efficiency and security in our digital world.
+                    </p>
+                    <div class="about-details">
+                        <div class="about-detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bedford, Nova Scotia</span>
+                        </div>
+                        <div class="about-detail">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Computer Programming, NSCC (2026)</span>
+                        </div>
+                        <div class="about-detail">
+                            <i class="fas fa-briefcase"></i>
+                            <span>IT Support & Web Developer at Rent Roam</span>
+                        </div>
+                    </div>
+                    <div class="about-buttons">
+                        <a href="#" class="btn primary-btn" id="resumeBtn">Download Resume</a>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stats-item">
+                        <div class="stats-number">9+</div>
+                        <div class="stats-text">Projects Completed</div>
+                    </div>
+                    <div class="stats-item">
+                        <div class="stats-number">95%</div>
+                        <div class="stats-text">Academic Average</div>
+                    </div>
+                    <div class="stats-item">
+                        <div class="stats-number">7+</div>
+                        <div class="stats-text">Technologies</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container skills-container">
+            <div class="section-header">
+                <h2>My <span>Skills</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-tabs">
+                    <button class="skills-tab active" data-target="programming">Programming</button>
+                    <button class="skills-tab" data-target="development">Development</button>
+                    <button class="skills-tab" data-target="tools">Tools & Platforms</button>
+                </div>
+                <div class="skills-tab-content">
+                    <div class="skills-panel active" id="programming">
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>Python</h3>
+                                    <span>2 years</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>C#</h3>
+                                    <span>2 years</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>C++</h3>
+                                    <span>1 year</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>Java</h3>
+                                    <span>1 year</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="70"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>JavaScript</h3>
+                                    <span>1 year</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="65"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-panel" id="development">
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>HTML/CSS</h3>
+                                    <span>1 year</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="70"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>Cybersecurity</h3>
+                                    <span>2 years</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>System Optimization</h3>
+                                    <span>3 years</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>IP Networking</h3>
+                                    <span>2 years</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-panel" id="tools">
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>Git & GitHub</h3>
+                                    <span>1 year</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>Windows Server</h3>
+                                    <span>1 year</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="70"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>VMWare</h3>
+                                    <span>2 years</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>Microsoft Office</h3>
+                                    <span>3 years</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container projects-container">
+            <div class="section-header">
+                <h2>My <span>Projects</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="python">Python</button>
+                <button class="filter-btn" data-filter="cpp">C++</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="security">Security</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Advanced Windows Optimizer -->
+                <div class="project-card" data-category="python security">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/320" alt="Advanced Windows Optimizer">
+                    </div>
+                    <div class="project-content">
+                        <h3>Advanced Windows Optimizer</h3>
+                        <p>Powerful utility designed to improve system performance, network efficiency, gaming experience, and privacy on Windows computers.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>System Optimization</span>
+                            <span>Performance</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/HuddyLatimer/Advanced-Windows-Optimizer" target="_blank" rel="noopener noreferrer" class="btn-small">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                            <a href="#" class="btn-small view-project" data-project="advanced-optimizer">
+                                <i class="fas fa-eye"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- File Encryptor -->
+                <div class="project-card" data-category="python security">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/320" alt="File Encryptor">
+                    </div>
+                    <div class="project-content">
+                        <h3>File Encryptor</h3>
+                        <p>An advanced file and folder encryption tool with password strength analysis, and robust encryption/decryption capabilities.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Cryptography</span>
+                            <span>Security</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/HuddyLatimer/File-Encryptor" target="_blank" rel="noopener noreferrer" class="btn-small">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                            <a href="#" class="btn-small view-project" data-project="file-encryptor">
+                                <i class="fas fa-eye"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Network Packet Sniffer -->
+                <div class="project-card" data-category="cpp security">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/320" alt="Network Packet Sniffer">
+                    </div>
+                    <div class="project-content">
+                        <h3>Network Packet Sniffer</h3>
+                        <p>A simple packet sniffer application for Windows, utilizing the Winsock API for network communication.</p>
+                        <div class="project-tech">
+                            <span>C++</span>
+                            <span>Winsock API</span>
+                            <span>Networking</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/HuddyLatimer/Network-Packet-Sniffer" target="_blank" rel="noopener noreferrer" class="btn-small">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                            <a href="#" class="btn-small view-project" data-project="packet-sniffer">
+                                <i class="fas fa-eye"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Windows Debloater -->
+                <div class="project-card" data-category="cpp">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/320" alt="Windows Debloater">
+                    </div>
+                    <div class="project-content">
+                        <h3>Windows Debloater</h3>
+                        <p>A lightweight C++ utility designed to remove unnecessary Windows applications and services.</p>
+                        <div class="project-tech">
+                            <span>C++</span>
+                            <span>Windows API</span>
+                            <span>System Utilities</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/HuddyLatimer/Windows-Debloater" target="_blank" rel="noopener noreferrer" class="btn-small">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                            <a href="#" class="btn-small view-project" data-project="windows-debloater">
+                                <i class="fas fa-eye"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- System Scanner -->
+                <div class="project-card" data-category="python">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/320" alt="System Scanner">
+                    </div>
+                    <div class="project-content">
+                        <h3>System Scanner</h3>
+                        <p>A system scanner application built to monitor system information, running processes, storage, network, and security services.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>System Monitoring</span>
+                            <span>Diagnostics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/HuddyLatimer/System-Scanner" target="_blank" rel="noopener noreferrer" class="btn-small">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                            <a href="#" class="btn-small view-project" data-project="system-scanner">
+                                <i class="fas fa-eye"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- QR Code Generator -->
+                <div class="project-card" data-category="python">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/320" alt="QR Code Generator">
+                    </div>
+                    <div class="project-content">
+                        <h3>QR Code Generator</h3>
+                        <p>A simple and efficient QR Code generator application built with Python. This tool allows users to quickly generate QR codes from text, URLs, or any other input data.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>QR Codes</span>
+                            <span>GUI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/HuddyLatimer/QR-Code-Generator" target="_blank" rel="noopener noreferrer" class="btn-small">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                            <a href="#" class="btn-small view-project" data-project="qr-code-generator">
+                                <i class="fas fa-eye"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Password Generator Extension -->
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/320" alt="Password Generator Extension">
+                    </div>
+                    <div class="project-content">
+                        <h3>Password Generator Extension</h3>
+                        <p>Advanced tool designed to create secure and customizable passwords effortlessly.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Browser Extension</span>
+                            <span>Security</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/HuddyLatimer/Password-Generator-Extension" target="_blank" rel="noopener noreferrer" class="btn-small">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                            <a href="#" class="btn-small view-project" data-project="password-generator">
+                                <i class="fas fa-eye"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ping Pong Game -->
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/320" alt="Ping Pong Game">
+                    </div>
+                    <div class="project-content">
+                        <h3>Ping Pong Game</h3>
+                        <p>This is a classic Pong game implemented using HTML, CSS, and JavaScript, with additional features like difficulty levels, game modes, and more.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/HuddyLatimer/Ping-Pong-Game" target="_blank" rel="noopener noreferrer" class="btn-small">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                            <a href="#" class="btn-small view-project" data-project="ping-pong">
+                                <i class="fas fa-eye"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Brick Breaker Game -->
+                <div class="project-card" data-category="python">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/320" alt="Brick Breaker Game">
+                    </div>
+                    <div class="project-content">
+                        <h3>Brick Breaker Game</h3>
+                        <p>Classic arcade game built using Python and Pygame.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pygame</span>
+                            <span>Game Development</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/HuddyLatimer/Brick-Breaker-Game" target="_blank" rel="noopener noreferrer" class="btn-small">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                            <a href="#" class="btn-small view-project" data-project="brick-breaker">
+                                <i class="fas fa-eye"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="project-modal" id="projectModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <!-- Content will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container contact-container">
+            <div class="section-header">
+                <h2>Contact <span>Me</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>hudsonlatimer4@gmail.com</p>
+                        <a href="mailto:hudsonlatimer4@gmail.com" class="contact-link">Send Email</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>902-818-9443</p>
+                        <a href="tel:9028189443" class="contact-link">Call Me</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Bedford, Nova Scotia, Canada</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="btn primary-btn submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home">HL</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/HuddyLatimer" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:hudsonlatimer4@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hudson Latimer. All Rights Reserved.</p>
+                <div class="back-to-top">
+                    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
